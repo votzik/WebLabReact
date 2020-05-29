@@ -1,0 +1,68 @@
+
+  .indexz{
+    z-index: -100;
+  }
+  .fir-clickcircle {
+    height: 40px;
+    width: 40px;
+    border-radius: 100px;
+    border-color: violet;
+    cursor: pointer;
+  }
+  
+  .fir-image-figure {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    position: relative;
+    text-decoration: none;
+  }
+  
+  .fir-image-figure .caption, .fir-image-figure figcaption {
+    padding-left: 7px;
+  }
+  
+  html.wf-active .fir-image-figure .fig-author-figure-title {
+    font-family: var(--fir-font-header);
+    font-size: 6px;
+  }
+  
+  .fir-image-figure .fig-author-figure-title {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: 1px;
+  }
+  
+  .fir-imageover {
+    position: relative;
+    display: flex;
+  }
+  
+  .fir-imageover-color {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    background: var(--fir-blue-twitter-alpha);
+    background-image: none;
+    border-radius: 100px;
+    border-color: violet;
+    cursor: pointer;
+ 
+
+    top: 0;
+    left: 0;
+  }
+  
+  .fir-imageover-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+  
+  }
+  
+  @keyframes fadeInFadeOut {
+    0%   { opacity:1; }
+    50%  { opacity:0; }
+    100% { opacity:1; }
+  }
