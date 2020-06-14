@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Login should render correctly 1`] = `
+<div>
+  <div
+    className="text-mine ml-3 mb-3"
+  >
+    <h1>
+      Our team
+    </h1>
+    <div
+      className="subtext"
+    >
+      Here you can look at our immpressive team and it\`s members
+    </div>
+  </div>
+  <ul
+    className="cards-mine"
+  >
+    <li>
+      <Card
+        description="Дизайнер"
+        image="puh.jpg"
+        noButton={true}
+        title="Pushok"
+      />
+    </li>
+    <li>
+      <Card
+        description="Пише джанго на джанго для джанго"
+        image="buff.jpg"
+        noButton={true}
+        title="Buffdan"
+      />
+    </li>
+    <li>
+      <Card
+        description="Дизайнер дизайнера"
+        image="wat.jpg"
+        noButton={true}
+        title="Reitar"
+      />
+    </li>
+    <li>
+      <Card
+        description="він спить не будіть його"
+        image="yura.jpg"
+        noButton={true}
+        title="Yurii"
+      />
+    </li>
+    <li>
+      <Card
+        description="Це Ігор"
+        image="me.jpg"
+        noButton={true}
+        title="Ігор"
+      />
+    </li>
+  </ul>
+  <Footer />
+</div>
+`;
