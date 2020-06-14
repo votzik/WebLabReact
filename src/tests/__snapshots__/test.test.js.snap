@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Login should render correctly 1`] = `
+<div
+  class="login-clean"
+>
+  <form
+    method="post"
+    onSubmit={[Function]}
+  >
+    <h2
+      class="sr-only"
+    >
+      Login Form
+    </h2>
+    <div
+      class="illustration"
+    >
+      <i
+        class="icon ion-ios-navigate"
+      />
+    </div>
+    <div
+      class="form-group"
+    >
+      <input
+        class="form-control"
+        name="username"
+        noValidate={true}
+        onChange={[Function]}
+        placeholder="Username"
+        type="text"
+      />
+    </div>
+    <div
+      class="form-group"
+    >
+      <input
+        class="form-control"
+        name="password"
+        noValidate={true}
+        onChange={[Function]}
+        placeholder="Password"
+        type="password"
+      />
+    </div>
+    <div
+      class="form-group"
+    >
+      <button
+        class="btn btn-primary btn-block"
+        type="submit"
+      >
+        Log In
+      </button>
+      <p />
+    </div>
+    <a
+      class="forgot"
+      href="https://naruto-base.su/news/bashnja_boga_1_serija/2020-04-01-5992"
+    >
+      Forgot your email or password?
+    </a>
+  </form>
+</div>
+`;
